@@ -2,16 +2,15 @@ import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_pagination/data/models/my_order_model.dart';
 
-const String BASE_URL = 'https://colibri24.uz';
+const String BASE_URL = 'https://tenders.guru/api';
 
 class MyRepository {
   static Future<List<OrdersListItem>> getOrdersList(int size, int page) async {
     Dio dio = Dio();
     dio.options.headers["Accept"] = "application/json";
-    // dio.options.headers["Authorization"] = TOKEN;
 
     final Response response = await dio
-        .get('$BASE_URL/services/mobile/api/orders-pageList', queryParameters: {
+        .get('$BASE_URL/pl/tenders', queryParameters: {
       "page": page,
       "size": size,
     });
