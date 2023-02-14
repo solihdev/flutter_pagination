@@ -1,14 +1,9 @@
-import 'package:random_password_generator/random_password_generator.dart';
 import 'package:telephony/telephony.dart';
 
 class AuthRepo {
   Future<void> sendSms(
       {required String number, required String signature}) async {
-    final password = RandomPasswordGenerator();
-
-    String newPassword = password.randomPassword(
-        numbers: true, passwordLength: 4, letters: false);
     await Telephony.instance.sendSms(
-        to: number, message: "<#> Confirmation Code: $newPassword $signature");
+        to: number, message: "<#> Confirmation Code: 112233 $signature");
   }
 }
