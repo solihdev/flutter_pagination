@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_pagination/cubit/pagination_cubit.dart';
+import 'package:flutter_pagination/cubit/pagination/pagination_cubit.dart';
 import 'package:flutter_pagination/data/models/my_order_model.dart';
 
 class MyHomePage extends StatefulWidget {

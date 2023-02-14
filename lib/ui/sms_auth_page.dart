@@ -41,11 +41,9 @@ class _CodeAutoFillTestPageState extends State<CodeAutoFillTestPage>
 
   @override
   Widget build(BuildContext context) {
-    final textStyle = TextStyle(fontSize: 18);
-
     return Scaffold(
       appBar: AppBar(
-        title: Text("Listening for code"),
+        title: const Text("Listening for code"),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -62,9 +60,11 @@ class _CodeAutoFillTestPageState extends State<CodeAutoFillTestPage>
             child: Builder(
               builder: (_) {
                 if (otpCode == null) {
-                  return Text("Listening for code...", style: textStyle);
+                  return const Text("Listening for code...",
+                      style: TextStyle(fontSize: 18));
                 }
-                return Text("Code Received: $otpCode", style: textStyle);
+                return Text("Code Received: $otpCode",
+                    style: const TextStyle(fontSize: 18));
               },
             ),
           ),

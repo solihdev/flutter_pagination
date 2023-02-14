@@ -10,10 +10,11 @@ class MyRepository {
     Dio dio = Dio();
     dio.options.headers["Accept"] = "application/json";
 
-    final Response response = await dio
-        .get('$BASE_URL/wp-json/wp/v2/posts?context=embed', queryParameters: {
-      "per_page": perPage,
-      "page": page,
+    final Response response =
+        await dio.get('$BASE_URL/wp-json/wp/v2/posts', queryParameters: {
+      "context": "embed",
+      "per_page": 50,
+      "page": 1,
     });
 
     debugPrint('page=$page&perPage=$perPage');
