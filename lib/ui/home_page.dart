@@ -47,7 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
         builder: (context, state) {
           if (state is LoadInProgress) {
             return const CircularProgressIndicator();
-          } else if (state is LoadInSuccess) {
+          }
+          else if (state is LoadInSuccess) {
             List<OrdersListItem> orders = state.orders;
             print("ORDERS LENGTH:${state.orders.length}");
             return ListView.builder(
