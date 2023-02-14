@@ -14,6 +14,7 @@ dependencies:
   formz: ^0.4.0
   dio: ^4.0.6
   fluttertoast: ^8.0.9
+  sms_autofill: ^2.2.0
 
 dev_dependencies:
   flutter_test:

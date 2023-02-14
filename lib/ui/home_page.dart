@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 if (index == orders.length) {
                   return Opacity(
                     opacity:
-                    context.read<PaginationCubit>().isFinished ? 0.0 : 1.0,
+                        context.read<PaginationCubit>().isFinished ? 0.0 : 1.0,
                     child: const SizedBox(
                       height: 40,
                       child: Center(child: CircularProgressIndicator()),
@@ -67,8 +67,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   var item = state.orders[index];
                   return SizedBox(
                     child: ListTile(
-                      title: Text(item.brandName),
-                      subtitle: Text(item.orderPrice.toString()),
+                      title: Text(item.id.toString()),
+                      subtitle: Text(item.date),
                     ),
                   );
                 }

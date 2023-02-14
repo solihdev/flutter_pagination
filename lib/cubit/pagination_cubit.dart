@@ -1,4 +1,4 @@
-import 'package:bloc/bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_pagination/data/models/my_order_model.dart';
 import 'package:flutter_pagination/data/my_repository.dart';
 
@@ -10,18 +10,18 @@ class PaginationCubit extends Cubit<PaginationState> {
   List<OrdersListItem> data = [];
   bool isFinished = false;
 
-  void loadOrders(int page, int size) async {
+  void loadOrders(int page, int perPage) async {
     emit(LoadInProgress());
     if (page == 0) {
       data = [];
     }
     await Future.delayed(const Duration(seconds: 2));
-    var orders = await MyRepository.getOrdersList(size, page);
+    var orders = await MyRepository.getOrdersList(page: page, perPage: perPage);
     data.addAll(orders);
     print("DATA LENGTH :${data.length}");
     emit(LoadInSuccess(
       orders: data,
     ));
-    isFinished = orders.length < size;
+    isFinished = orders.length < perPage;
   }
 }

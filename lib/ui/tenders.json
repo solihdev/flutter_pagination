@@ -1,0 +1,174 @@
+[
+  {
+    "id": 2483442,
+    "date": "2023-02-13T23:01:07",
+    "slug": "amid-merger-and-bankruptcy-in-the-west-lidar-maker-hesai-nails-190m-ipo",
+    "type": "post",
+    "link": "https://techcrunch.com/2023/02/13/amid-merger-and-bankruptcy-in-the-west-lidar-maker-hesai-nails-190m-ipo/",
+    "title": {
+      "rendered": "Amid merger and bankruptcy in the West, lidar maker Hesai nails $190M IPO"
+    },
+    "excerpt": {
+      "rendered": "<p>Last week, China&#8217;s lidar maker Hesai raised an upsized IPO in the U.S. at a time the industry is reeling from layoffs, bankruptcy, and consolidation. The Shanghai- and California- based company, which makes the sensing technology critical to autonomous driving and increasingly advanced driver assistant systems, raised $190 million from its public offering on Nasdaq. [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 133574232,
+    "featured_media": 2471930,
+    "jetpack_featured_media_url": "https://techcrunch.com/wp-content/uploads/2023/01/hesai-baidu-getty.jpg",
+    "parsely": {
+      "version": "1.0.0",
+      "meta": [],
+      "rendered": ""
+    },
+    "shortlink": "https://tcrn.ch/3RU46JH",
+    "parselyMeta": {
+      "parsely-title": "Amid merger and bankruptcy in the West, lidar maker Hesai nails $190M IPO",
+      "parsely-link": "https://techcrunch.com/2023/02/13/amid-merger-and-bankruptcy-in-the-west-lidar-maker-hesai-nails-190m-ipo/",
+      "parsely-type": "post",
+      "parsely-pub-date": "2023-02-14T07:01:07+00:00",
+      "parsely-image-url": "https://techcrunch.com/wp-content/uploads/2023/01/hesai-baidu-getty.jpg?w=680",
+      "parsely-author": [
+        "Rita Liao"
+      ],
+      "parsely-section": "Transportation",
+      "parsely-tags": "@post-id:2483442,robotics &amp; ai,autonomous driving,china,hesai,lidar,velodyne",
+      "parsely-metadata": "{\"@type\":\"NewsArticle\",\"mainEntityOfPage\":{\"@type\":\"WebPage\"},\"dateModified\":\"2023-02-14T07:07:47+00:00\",\"description\":\"Last week, China&#8217;s lidar maker Hesai raised an upsized IPO in the U.S. at a time the industry is reeling from layoffs, bankruptcy, and consolidation. The Shanghai- and California- based company, which makes the sensing technology critical to autonomous driving and increasingly advanced driver assistant systems, raised $190 million from its public offering on Nasdaq. [&hellip;]\",\"speakable\":{\"@type\":\"SpeakableSpecification\",\"cssSelector\":[\".alpha\",\"#speakable-summary\"]},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TechCrunch\",\"logo\":{\"@type\":\"imageObject\",\"url\":\"https:\\/\\/techcrunch.com\\/wp-content\\/themes\\/techcrunch-2017\\/images\\/logo-json-ld.png\",\"width\":\"600\",\"height\":\"60\"}}}"
+    },
+    "rapidData": {
+      "pt": "",
+      "pct": ""
+    },
+    "premiumContent": false,
+    "premiumCutoffPercent": 1,
+    "featured": false,
+    "subtitle": "",
+    "editorialContentProvider": "",
+    "tc_cb_mapping": [],
+    "associatedEvent": null,
+    "event": null,
+    "authors": [
+      133574232
+    ],
+    "hide_featured_image": false,
+    "canonical_url": "https://techcrunch.com/2023/02/13/amid-merger-and-bankruptcy-in-the-west-lidar-maker-hesai-nails-190m-ipo/",
+    "primary_category": {
+      "term_id": 2401,
+      "name": "Transportation",
+      "slug": "transportation",
+      "term_group": 0,
+      "term_taxonomy_id": 101982,
+      "taxonomy": "category",
+      "description": "Transportation includes all the present and future ways people and packages get from Point A to Point B, from scooters and e-bikes to autonomous vehicles, EVs, transit and evTOLs. We cover players big and small, from Tesla, GM, Uber, and Lyft, to small startups entering the automotive tech space.",
+      "parent": 0,
+      "count": 8100,
+      "filter": "raw"
+    },
+    "_links": {
+      "self": [
+        {
+          "href": "https://techcrunch.com/wp-json/wp/v2/posts/2483442"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://techcrunch.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://techcrunch.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/wp/v2/comments?post=2483442"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 15,
+          "href": "https://techcrunch.com/wp-json/wp/v2/posts/2483442/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 2485159,
+          "href": "https://techcrunch.com/wp-json/wp/v2/posts/2483442/revisions/2485159"
+        }
+      ],
+      "authors": [
+        {
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/tc/v1/users/133574232"
+        }
+      ],
+      "https://techcrunch.com/edit": [
+        {
+          "href": "https://techcrunch.com/wp-admin/post.php?post=2483442&action=edit"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/tc/v1/users/133574232"
+        }
+      ],
+      "wp:featuredmedia": [
+        {
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/wp/v2/media/2471930"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://techcrunch.com/wp-json/wp/v2/media?parent=2483442"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/wp/v2/categories?post=2483442"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/wp/v2/tags?post=2483442"
+        },
+        {
+          "taxonomy": "_tc_cb_tag_taxonomy",
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/wp/v2/crunchbase_tag?post=2483442"
+        },
+        {
+          "taxonomy": "tc_stories_tax",
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/wp/v2/tc_stories_tax?post=2483442"
+        },
+        {
+          "taxonomy": "tc_ec_category",
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/wp/v2/tc_ec_category?post=2483442"
+        },
+        {
+          "taxonomy": "tc_event",
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/wp/v2/tc_event?post=2483442"
+        },
+        {
+          "taxonomy": "tc_regions_tax",
+          "embeddable": true,
+          "href": "https://techcrunch.com/wp-json/wp/v2/tc_regions_tax?post=2483442"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

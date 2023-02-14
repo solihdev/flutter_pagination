@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_pagination/ui/home_page.dart';
+import 'package:flutter_pagination/ui/sms_auth_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -6,14 +8,16 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Pagination',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container(),
+      home: const MyHomePage(),
     );
   }
 }
