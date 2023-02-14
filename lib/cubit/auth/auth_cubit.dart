@@ -7,6 +7,8 @@ part 'auth_state.dart';
 class AuthCubit extends Cubit<AuthState> {
   AuthCubit() : super(AuthState(isLoading: false, isDone: false));
 
+  String number = '';
+
   Future<void> nextPage(String number, String signature) async {
     emit(state.copyWith(isLoading: true));
     await Future.delayed(const Duration(seconds: 3));
