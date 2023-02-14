@@ -15,8 +15,9 @@ dependencies:
   dio: ^4.0.6
   fluttertoast: ^8.0.9
   sms_autofill: ^2.2.0
-  telephony: ^0.2.0
-  random_password_generator: ^0.2.1
+
+  auth_repository:
+    path: packages/auth
 
 dev_dependencies:
   flutter_test:

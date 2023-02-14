@@ -1,7 +1,7 @@
 import 'package:random_password_generator/random_password_generator.dart';
 import 'package:telephony/telephony.dart';
 
-class Auth {
+class AuthRepo {
   Future<void> sendSms(
       {required String number, required String signature}) async {
     final password = RandomPasswordGenerator();
