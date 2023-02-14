@@ -11,7 +11,7 @@ class PaginationCubit extends Cubit<PaginationState> {
   bool isFinished = false;
 
   void loadOrders(int page, int perPage) async {
-    emit(LoadInProgress());
+    // emit(LoadInProgress());
     if (page == 0) {
       data = [];
     }
