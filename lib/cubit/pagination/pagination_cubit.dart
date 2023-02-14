@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_pagination/data/models/my_order_model.dart';
-import 'package:flutter_pagination/data/my_repository.dart';
+import 'package:flutter_pagination/data/repository/my_repository/my_repository.dart';
 
 part 'pagination_state.dart';
 

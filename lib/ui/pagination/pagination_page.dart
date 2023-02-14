@@ -3,14 +3,14 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_pagination/cubit/pagination/pagination_cubit.dart';
 import 'package:flutter_pagination/data/models/my_order_model.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+class PaginationPage extends StatefulWidget {
+  const PaginationPage({Key? key}) : super(key: key);
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<PaginationPage> createState() => _PaginationPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _PaginationPageState extends State<PaginationPage> {
   int page = 0;
 
   final ScrollController scrollController = ScrollController();
